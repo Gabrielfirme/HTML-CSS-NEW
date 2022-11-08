@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens que se adaptam</title>
+</head>
+<body>
+    <h1><strong>Imagens, audios e vídeos</strong></h1>
+    <h2>imagens que se adptam ao tamanho da tela</h2>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto22.jpg" type="image/jpg">
+        <source media="(max-width:1050px)" srcset="imagens/fotolocal700.jpg" type="image/jpg">
+        <img src="imagens/fotolocal1000.jpeg" alt="imagem flexivel">
+
+    </picture>
+
+    <h2>colocando áudio</h2>
+        <p>aprendendo a adicionar audio nos sites</p>
+         <audio preload="auto" controls autoplay loop>
+            <source src="midia/Blackberry K Two - Squadda B.mp3" type="audio/mpeg">
+            <source src="midia/Blackberry K Two - Squadda B.oog" type="audio/oog">
+            <source src="midia/Blackberry K Two - Squadda B.wav" type="audio/WAV">
+
+
+            <!--MP3, WAV E OOG vou ter um ar-->
+            <!-- arquvios wav's são muito grandes e afetam no carregamento do site-->
+
+         </audio>
+    
+</body>
+</html>

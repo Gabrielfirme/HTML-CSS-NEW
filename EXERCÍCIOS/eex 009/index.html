@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas em HTML5</title>
+</head>
+<body>
+    <h2>Ordered lists (listas ordenadas) </h2>    
+        <p>Listas oredenadas ou ordered lists, são listas como a lista de supermercado, lista de aprovação, listas que tem uma ordem lógica a se seguir</p>
+        <ol type="A" start=" C ">
+            <li> começo</li>
+            <li> Meio </li>
+            <li> Fim</li>
+        </ol>
+
+    <h2>Unordered lists (listas não ordenadas)</h2>
+        <p>listas não ordenadas diferentemente das listas ordenadas não seguem uma lógica </p>
+        <ul>
+            <li>Fim</li>
+            <li>Meio</li>
+            <li>começo</li>
+        </ul>
+    <h2>misturando as 2 listas</h2>
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+            <ul type="disc">
+                <li> item 1.1</li>
+                <li> item 2.1</li>
+            </ul>
+    </ol>
+    <ol>
+        <li> item 10</li>
+            <li>item 11</li>
+            <li>item 12 </li> 
+    </ol>
+<!-- Sempre lembrar do fechamento correto da tag caso contrário a indentação aparecerá bagunçada-->
+<h2>Exercício lista de jogos </h2>
+<ol>
+    <li>EA sports</li>
+        <ul type="square">
+            <li> Fifa 22</li>
+            <li>Battlefield 22</li>
+            <li> Fifa 15 </li>
+                <ul type="circle">
+                    <li> melhor jogo</li>
+                    <li> jogo mediano</li>
+                    <li>jogo horrível</li>
+                </ul>
+        </ul>
+</ol>
+<ol>
+    <li> Sega </li>
+        <ul type="square">
+            <li> Out Run</li>
+            <li>Sonic </li>
+            <li>Crazy Taxi</li>
+        </ul>
+</ol>
+<h2>linguagens</h2>
+ <ol>
+        <li>antigas</li> 
+        <ol type="a">  
+                <li>c#</li>
+                <li>visual basic</li>
+                <li>Fortran</li>
+        </ol>
+        <li>novas</li>
+        <ol type="a" start="4">
+
+                <li> Java </li>
+                <li>python</li>
+                <li>php</li>
+    </ol>    
+</ol>
+<!-- para criar uma lista dentro da outra basta ficar atento ao fechamento das tags-->
+<h2>lista de definições ou definition lists</h2>
+<dl>
+<dt><strong>HTML5</strong></dt>
+    <dd>Linguagem de marcação utilizada para criação de conteúdo de sites</dd>
+<dt> <strong>CSS </strong></dt>
+    <dd> linguagem de marcação utilizada  para estilização de sites</dd>
+<dt><strong>JAVA SCRIPT</strong></dt>
+    <dd>Linguagem de programação utilizada para interatividade dos sites</dd>
+    
+</body>
+</html>

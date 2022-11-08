@@ -1,0 +1,40 @@
+@charset "UTF-8";
+body {
+    background-color: rgba(43, 179, 181, 0.485);
+}
+
+h1 {
+    color: rgba(12, 38, 87, 0.704);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#principal {
+    text-align: center;
+    color: black;
+}
+.basico {
+    background-color: rgba(2, 57, 18, 0.935);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.intermediario {
+    background-color: yellow;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.avançado {
+    background-color: red;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.marcatexto {
+    color: blue;
+    font-size: 18px;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+
+h2 {
+    color: rgb(1, 20, 20);
+}

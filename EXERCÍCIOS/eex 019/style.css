@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body{
+    font:normal 2em Arial, Helvetica, sans-serif;
+}
+a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: red;
+}
+
+a:visited {
+    color: violet;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+div{
+    display:inline-block;
+    background-color: lightgray;
+    color: lightgrey;
+    border: 1px solid black;
+    text-align: right;
+    height: 400px;
+    width: 400px;
+}
+#d4 > p {
+    display: none;
+    color: black;
+    text-align: center;
+    border: none;
+    
+}
+div:hover{
+background-color: brown;
+}
+
+#d1 {
+    color: aquamarine;
+
+}
