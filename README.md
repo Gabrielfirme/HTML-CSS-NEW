@@ -1,2 +1,3 @@
 # HTML-CSS NEW
- curso em video
+ Curso em Video
+ Estou aprendendo a criar sites e gerenciar meus repositórios.
